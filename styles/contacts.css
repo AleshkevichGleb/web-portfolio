@@ -1,5 +1,5 @@
 .contacts {
-    padding: 50px 0;
+    padding: 80px 0 10px 0;
 }
 
 .contacts__container {
@@ -31,6 +31,7 @@
 .contacts__img {
     display: flex;
     align-items: center;
+    gap: 5px;
 }
 
 .contacts__link {
@@ -39,4 +40,27 @@
 
 .contacts__link:hover {
     font-weight: 700;
+}
+
+@media(max-width: 570px) {
+    .contacts__container {
+        margin: 0 10px;
+    }
+
+    .contacts__item {
+        flex-wrap: wrap;
+    }
+    .contacts__socialText {
+        display: none;
+    }
+}
+
+@media(max-width: 434px) {
+    .contacts__container {
+        margin: 0 5px;
+    }
+
+    .contacts__item {
+        gap: 5px;
+    }
 }

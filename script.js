@@ -1,5 +1,5 @@
 
-document.querySelectorAll('.header__link').forEach(link => {
+document.querySelectorAll('.scroll-link').forEach(link => {
     link.addEventListener('click', function (e) {
         e.preventDefault();
 

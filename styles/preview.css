@@ -25,13 +25,10 @@
 
 .next {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 70px;
-    position: relative;
-    z-index: 2;
 }
 .next__item {
     animation: nextArrow 1s infinite alternate;
@@ -44,5 +41,11 @@
     }
     100% {
         transform:translateY(10px);
+    }
+}
+
+@media(max-width: 620px) {
+    .preview__title {
+        font-size: 32px;
     }
 }
