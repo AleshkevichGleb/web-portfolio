@@ -44,6 +44,12 @@
     }
 }
 
+@media(max-width: 767.98px) {
+    .preview {
+        height: 95vh;
+    }
+}
+
 @media(max-width: 620px) {
     .preview__title {
         font-size: 32px;
